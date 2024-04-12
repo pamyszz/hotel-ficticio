@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: url(./../img/pexels-max-vakhtbovycn-7534171.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    width: 30%;
+    height: 90vh;
+    position: relative;
+    top: 4%;
+    font-size: 35px;
+    color: aliceblue;
+    border-color: brown;
+    background-color: burlywood;
+}
+
+button:hover {
+    cursor: pointer;   
+}
